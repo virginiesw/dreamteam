@@ -1,0 +1,20 @@
+#avatar {
+    display: flex;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#menu {
+    width: 300px;
+    height: 500px;
+    background-color: #DAD;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 5px;
+    right: 0px;
+    top: 100px;
+}
