@@ -1,0 +1,27 @@
+#sliding {
+    position: fixed;
+    left: -200px;
+    top: 100px;
+    height: 150px;
+    width: 250px;
+    background-color: blueviolet;
+    transition: left 1s;
+}
+
+#leftbox {
+    height: 75px;
+    width: 60px;
+    background-color: chartreuse;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+#rightbox {
+    height: 40px;
+    width: 100px;
+    background-color: crimson;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
